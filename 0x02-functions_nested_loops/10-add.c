@@ -2,8 +2,8 @@
 
 /**
  * add - adds two integers and returns the result
- * @a - parameter of int type
- * @b - parameter of int type
+ * @a: parameter of int type
+ * @b: parameter of int type
  *
  * Return: Result of addition of both numbers
  */
