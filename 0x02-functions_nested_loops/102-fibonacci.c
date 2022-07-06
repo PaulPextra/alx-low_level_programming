@@ -8,20 +8,21 @@
 int main(void)
 {
 	int i;
-	long int fibonacci[50];
+	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	fibonacci[0] = 0;
-	fibonacci[1] = 1;
-	for (i = 2; i < 50; i++)
+	for (i = 0; i < 50; i++)
 	{
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+		sum = fib1 + fib2;
+		printf("%lu", sum);
+		fib1 = fib2;
+		fib2 = sum;
 		if (i == 49)
 		{
-			printf("%ld\n", fibonacci[i]);
+			printf("\n");
 		}
 		else
 		{
-			printf("%ld, ", fibonacci[i]);
+			printf(", ");
 		}
 	}
 	return (0);
