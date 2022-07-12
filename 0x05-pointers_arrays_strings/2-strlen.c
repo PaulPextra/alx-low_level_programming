@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * int _strlen - Evaluate the length of a string.
+ * _strlen - Evaluate the length of a string.
  * @s: The string parameter whose length is evaluated
  *
  * Return: The length of the string
