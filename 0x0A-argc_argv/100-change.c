@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
 		if (argc < 0)
 		{
 			printf("%d\n", 0);
-			return (0);
 		}
 		if (amount % 25 >= 0)
 		{
@@ -45,11 +44,13 @@ int main(int argc, char *argv[])
 		if (amount % 1 >= 0)
 			coins += amount;
 		printf("%d\n", coins);
+
 		return (0);
 	}
 	else
 	{
 		printf("Error\n");
+
 		return (1);
 	}
 }
